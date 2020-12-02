@@ -1,0 +1,34 @@
+[16-Feb-2020 20:27:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 21:03:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 21:07:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 21:14:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 22:14:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 22:16:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[16-Feb-2020 22:25:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 21:35:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 21:49:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 22:07:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 22:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 22:19:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 22:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 22:40:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[17-Feb-2020 23:57:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[21-Feb-2020 02:10:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[21-Feb-2020 02:11:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[21-Feb-2020 02:41:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[21-Feb-2020 02:46:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[22-Feb-2020 13:47:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[22-Feb-2020 18:28:18 UTC] PHP Warning:  copy(/home2/iowakaya/public_html/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/sunset-cover-photo.jpg): failed to open stream: No such file or directory in /home2/iowakaya/public_html/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php on line 679
+[01-Mar-2020 17:58:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/iowakaya/public_html/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 192
+[21-Jul-2020 20:25:10 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_InvalidActionException' not found in /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:212
+Stack trace:
+#0 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(196): ActionScheduler_Store->validate_schedule(Object(__PHP_Incomplete_Class), '648')
+#1 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(164): ActionScheduler_DBStore->make_action_from_db_record(Object(stdClass))
+#2 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(187): ActionScheduler_DBStore->fetch_action('648')
+#3 /home2/iowakaya/public_html/wp-content/plugins/wpforms-lite/src/Tasks/Actions/EntryEmailsMetaCleanupTask.php(49): as_next_scheduled_action('wpforms_process...')
+#4 /home2/iowakaya/public_html/wp-content/plugins/w in /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 212
+[02-Sep-2020 10:25:43 UTC] WordPress database error Specified key was too long; max key length is 767 bytes for query ALTER TABLE `_PFI_mec_users` ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `email` (`email`); made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, MEC_feature_update->update, MEC_feature_update->version5110, MEC_db->q
+[02-Sep-2020 10:25:43 UTC] WordPress database error Incorrect table definition; there can be only one auto column and it must be defined as a key for query ALTER TABLE `_PFI_mec_users` MODIFY `id` int NOT NULL AUTO_INCREMENT; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, MEC_feature_update->update, MEC_feature_update->version5110, MEC_db->q
+[30-Oct-2020 07:01:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/iowakaya/public_html/wp-content/db-error.php:1) in /home2/iowakaya/public_html/wp-content/db-error.php on line 3
+[30-Oct-2020 07:01:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/iowakaya/public_html/wp-content/db-error.php:1) in /home2/iowakaya/public_html/wp-content/db-error.php on line 4
+[30-Oct-2020 07:01:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/iowakaya/public_html/wp-content/db-error.php:1) in /home2/iowakaya/public_html/wp-content/db-error.php on line 5
