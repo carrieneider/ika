@@ -1,0 +1,5 @@
+[31-Jul-2020 01:45:04 America/Boise] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/iowakaya/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 01:47:52 America/Boise] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/iowakaya/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 01:47:52 America/Boise] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/iowakaya/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[01-Aug-2020 04:45:01 America/Boise] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/iowakaya/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[01-Aug-2020 07:07:49 America/Boise] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/iowakaya/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17

@@ -1,0 +1,17 @@
+.tablepress thead th,
+.tablepress tfoot th {
+	background-color: #5DB459;
+}
+
+.tablepress .odd td {
+	background-color: #dcffd9;
+}
+
+.tablepress .even td {
+	background-color: #efffed;
+}
+
+.tablepress tbody td {
+	color: #000000;
+	font-weight: bold;
+}

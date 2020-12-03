@@ -1,0 +1,8 @@
+2020-11-10T21:33:58+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_InvalidActionException' not found in /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:212
+Stack trace:
+#0 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(196): ActionScheduler_Store->validate_schedule(Object(__PHP_Incomplete_Class), '865')
+#1 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(164): ActionScheduler_DBStore->make_action_from_db_record(Object(stdClass))
+#2 /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(187): ActionScheduler_DBStore->fetch_action('865')
+#3 /home2/iowakaya/public_html/wp-content/plugins/wpforms-lite/src/Tasks/Actions/EntryEmailsMetaCleanupTask.php(49): as_next_scheduled_action('wpforms_process...')
+#4 /home2/iowakaya/public_html/wp-content/plugins/w in /home2/iowakaya/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 212
+
